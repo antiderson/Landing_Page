@@ -1,2 +1,2 @@
 # Landing_Page
- projeto de engenharia de softare, recriando uma pagina web
+ projeto de engenharia de software, recriando uma pagina web 💻 🚧
