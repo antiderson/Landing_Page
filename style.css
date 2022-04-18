@@ -1,0 +1,203 @@
+body {
+    margin: 0
+}
+
+section {
+    height: 100vh;
+}
+
+h1 {
+    width: 522px;
+    height: 161px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 140%;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.firstPage {
+    background-color: #116CFF;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 708px;
+    height: 39px;
+    left: 403px;
+    top: 40px;
+}
+
+a {
+    position: static;
+    width: 120px;
+    height: 19px;
+    left: 10px;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    width: 129.32px;
+    height: 37px;
+    left: 100px;
+    top: 60px;
+}
+
+.login {
+    position: static;
+    width: 104px;
+    height: 39px;
+
+    margin-top: 55px;
+    border-radius: 10px;
+    margin-left: 1400px;
+    color: #116CFF;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.LearningCoding {
+    display: flex;
+    align-items: flex-start;
+
+    color: white;
+}
+
+.LearningCoding article {
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 70px
+}
+
+.LearningCoding p {
+    position: absolute;
+    width: 503px;
+    height: 64px;
+    left: 100px;
+    top: 381px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.dizzy {
+    position: absolute;
+    width: 632px;
+    height: 386.5px;
+    /* left: 634px; */
+    left: 800px;
+    top: 160px;
+}
+
+.amarelo {
+    position: absolute;
+    width: 263px;
+    height: 60px;
+    left: 1250px;
+    top: 165px;
+}
+
+.fundo {
+    position: absolute;
+    top: 200px;
+    left: 920px;
+
+    width: 423px;
+    height: 355px;
+}
+
+.estrela1 {
+    position: absolute;
+    width: 34px;
+    height: 32.76px;
+    left: 910px;
+    top: 185px;
+}
+
+.estrela2 {
+    position: absolute;
+    width: 34px;
+    height: 32.76px;
+    left: 1320px;
+    top: 534px;
+}
+
+.cinza {
+    position: absolute;
+    width: 263px;
+    height: 60px;
+    left: 790px;
+    top: 520px;
+}
+
+.Book {
+    position: absolute;
+    width: 263px;
+    height: 60px;
+    top: 500px;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+
+    color: #116CFF;
+}
+
+.Learn {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    top: 500px;
+    background: #116CFF;
+    border-radius: 10px;
+    left: 410px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Inter';
+    font-style: bold ;
+    font-size:20px;
+}
+
+
+
