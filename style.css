@@ -27,6 +27,7 @@ p {
     line-height: 40px;
 }
 
+/*Pagina Home */
 .firstPage {
     background-color: #116CFF;
 }
@@ -117,7 +118,6 @@ a {
     position: absolute;
     width: 632px;
     height: 386.5px;
-    /* left: 634px; */
     left: 800px;
     top: 160px;
 }
@@ -130,7 +130,7 @@ a {
     top: 165px;
 }
 
-.fundo {
+.retangulo {
     position: absolute;
     top: 200px;
     left: 920px;
@@ -195,9 +195,117 @@ a {
     border-radius: 10px;
     color: white;
     font-family: 'Inter';
-    font-style: bold ;
-    font-size:20px;
+    font-style: bold;
+    font-size: 20px;
 }
 
+/*Segunda e terceira parte */
+.logical-thinking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    color: #00235C;
+    background-color: white;
+}
 
+.logical-thinking article {
+    width: 630px;
+}
+
+.logical-thinking p {
+    width: 561px;
+    height: 160px;
+}
+
+.preparing-your-kids {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    background-color: #116CFF;
+}
+
+.preparing-your-kids article {
+    width: 570px;
+
+    margin-right: 38px;
+}
+
+.preparing-your-kids p {
+    width: 526px;
+    height: 200px;
+    padding-top: 120px;
+}
+
+/* Pagina de chats */
+.title {
+    font-family: 'Inter';
+    font-style: 'bold';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    top: 60px;
+    width: 185;
+    height: 50px;
+    left: 101px;
+    position: absolute;
+}
+
+.chat {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat1 {
+    position: absolute;
+    width: 549px;
+    height: 189px;
+    left: 100px;
+    top: 162px;
+}
+
+.chat2 {
+    position: absolute;
+    width: 543px;
+    height: 193px;
+    left: 100px;
+    top: 371px;
+}
+
+.chat3 {
+    position: absolute;
+    width: 543px;
+    height: 189px;
+    left: 723px;
+    top: 162px;
+}
+
+.chat4 {
+    position: absolute;
+    width: 543px;
+    height: 189px;
+    left: 723px;
+    top: 371px;
+}
+
+.fundoChat {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    width: 1050px;
+    height: 700px;
+}
+
+.table{
+    background-color: #116CFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 800px;
+
+}
