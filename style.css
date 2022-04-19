@@ -59,6 +59,7 @@ a {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+    text-decoration: none;
 
     color: #FFFFFF;
 }
@@ -72,7 +73,6 @@ a {
 }
 
 .login {
-    position: static;
     width: 104px;
     height: 39px;
 
@@ -108,8 +108,6 @@ a {
     left: 100px;
     top: 381px;
 
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
 }
@@ -178,6 +176,7 @@ a {
     line-height: 24px;
     text-align: center;
     border: none;
+    cursor: pointer;
 
     color: #116CFF;
 }
@@ -197,6 +196,8 @@ a {
     font-family: 'Inter';
     font-style: bold;
     font-size: 20px;
+    border: none;
+    cursor: pointer;
 }
 
 /*Segunda e terceira parte */
@@ -240,8 +241,13 @@ a {
 }
 
 /* Pagina de chats */
+.chat  {
+    position: absolute;
+    background-color: white;
+    
+}
+
 .title {
-    font-family: 'Inter';
     font-style: 'bold';
     font-weight: 700;
     font-size: 36px;
@@ -251,14 +257,11 @@ a {
     height: 50px;
     left: 101px;
     position: absolute;
+    color:#116CFF
 }
 
-.chat {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
+
 
 .chat1 {
     position: absolute;
@@ -300,12 +303,159 @@ a {
     height: 700px;
 }
 
-.table{
+/*Estilização da page da tabela */
+
+
+.table {
+    position: absolute;
     background-color: #116CFF;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
     margin-top: 800px;
+    flex-direction: column;
+    width: 100%;
+}
 
+.cima {
+    position: absolute;
+    width: 1166px;
+    height: 115px;
+    /* left: auto; */
+    top: 146px;
+
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+}
+
+.geral {
+    padding: 0px 30px;
+}
+
+h2 {
+    color: #00235C;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.info {
+    /* position: absolute; */
+    display: grid;
+    grid-template-columns: 40px 180px 40px 1px;
+    margin-left: 40%;
+    /* background-color: red; */
+    height: 115px;
+    margin-top: -100px;
+    width: 600px;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.info img {
+    height: 24px;
+    width: 24px;
+}
+
+.info p {
+    /* position: absolute; */
+    width: 300px;
+    /* height: 25px; */
+    /* margin-left: 10px; */
+    /* top: 16px; */
+    margin-top: 20px;
+    line-height: 25px;
+    color: #00235C;
+
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 20px;
+
+    position: absolute;
+    width: 135px;
+    height: 50px;
+    left: 1000px;
+    /* top: 195px; */
+    margin-top: -70px;
+
+    background: #116CFF;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.table h1 {
+    position: absolute;
+    /* width: 172px; */
+    /* height: 50px; */
+    left: 180px;
+    /* top: 3400px; */
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.fileira1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1166px;
+    align-items: center;
+    margin-top: 1px;
+    background: #FFFFFF;
+}
+
+.fileira1 h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    padding: 0px 30px;
+    color: #116CFF;
+}
+
+.fileira1 .estrelinhas{
+    display:flex;
+    justify-content: flex-start;
+    padding-left: 40%;
+}
+.fileira1 img {
+    height: 23px;
+    width: 23px;
+} 
+
+.valores{
+    color: #00235C;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;  
+    text-align: right;
+    padding-right: 10%;
+}
+
+span{
+    color: #ff463a;
+    font-weight: 500;
+    font-size:18px;
+    background: rgba(255, 230, 229, 1);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+.contactUs{
+    
 }
