@@ -91,7 +91,6 @@ a {
 .LearningCoding {
     display: flex;
     align-items: flex-start;
-
     color: white;
 }
 
@@ -107,9 +106,6 @@ a {
     height: 64px;
     left: 100px;
     top: 381px;
-
-    font-weight: 500;
-    font-size: 18px;
 }
 
 .dizzy {
@@ -196,7 +192,6 @@ a {
     font-family: 'Inter';
     font-style: bold;
     font-size: 20px;
-    border: none;
     cursor: pointer;
 }
 
@@ -241,10 +236,9 @@ a {
 }
 
 /* Pagina de chats */
-.chat  {
+.chat {
     position: absolute;
     background-color: white;
-    
 }
 
 .title {
@@ -257,11 +251,8 @@ a {
     height: 50px;
     left: 101px;
     position: absolute;
-    color:#116CFF
+    color: #116CFF
 }
-
-
-
 
 .chat1 {
     position: absolute;
@@ -304,8 +295,6 @@ a {
 }
 
 /*Estilização da page da tabela */
-
-
 .table {
     position: absolute;
     background-color: #116CFF;
@@ -319,12 +308,9 @@ a {
 }
 
 .cima {
-    position: absolute;
+    display: flex;
+    flex-direction: row;
     width: 1166px;
-    height: 115px;
-    /* left: auto; */
-    top: 146px;
-
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px 10px 0px 0px;
     align-items: center;
@@ -337,22 +323,15 @@ a {
 h2 {
     color: #00235C;
     font-family: 'Inter';
-    font-style: normal;
+    font-style: bold;
     font-weight: 700;
 }
 
 .info {
-    /* position: absolute; */
     display: grid;
     grid-template-columns: 40px 180px 40px 1px;
-    margin-left: 40%;
-    /* background-color: red; */
-    height: 115px;
-    margin-top: -100px;
     width: 600px;
-    /* justify-content: space-between; */
     align-items: center;
-    /* justify-content: center; */
 }
 
 .info img {
@@ -361,48 +340,30 @@ h2 {
 }
 
 .info p {
-    /* position: absolute; */
     width: 300px;
-    /* height: 25px; */
-    /* margin-left: 10px; */
-    /* top: 16px; */
     margin-top: 20px;
     line-height: 25px;
     color: #00235C;
-
 }
 
 .detail {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 13px 20px;
-
-    position: absolute;
     width: 135px;
     height: 50px;
-    left: 1000px;
-    /* top: 195px; */
-    margin-top: -70px;
-
     background: #116CFF;
     border-radius: 10px;
     color: #fff;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
     border: none;
     cursor: pointer;
 }
 
 .table h1 {
     position: absolute;
-    /* width: 172px; */
-    /* height: 50px; */
     left: 180px;
-    /* top: 3400px; */
-
     font-weight: 700;
     font-size: 36px;
-    line-height: 50px;
 }
 
 .fileira1 {
@@ -410,45 +371,43 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     width: 1166px;
     align-items: center;
-    margin-top: 1px;
+    margin-bottom: 1px;
     background: #FFFFFF;
 }
 
 .fileira1 h2 {
-    font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
     font-size: 20px;
-    line-height: 150%;
     padding: 0px 30px;
     color: #116CFF;
 }
 
-.fileira1 .estrelinhas{
-    display:flex;
+.fileira1 .estrelinhas {
+    display: flex;
     justify-content: flex-start;
     padding-left: 40%;
 }
+
 .fileira1 img {
     height: 23px;
     width: 23px;
-} 
+}
 
-.valores{
+.valores {
     color: #00235C;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 30px;  
+    line-height: 30px;
     text-align: right;
     padding-right: 10%;
 }
 
-span{
+span {
     color: #ff463a;
     font-weight: 500;
-    font-size:18px;
+    font-size: 18px;
     background: rgba(255, 230, 229, 1);
     padding: 5px;
     border-radius: 5px;
@@ -456,6 +415,156 @@ span{
 
 }
 
-.contactUs{
-    
+/* Estilização da Page de formulario */
+.contactUs {
+    /* height: 50vh; */
+    margin-top: 103%;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.contactUs h2 {
+    width: 600px;
+    text-align: center;
+}
+
+.enfeite1 {
+    position: absolute;
+    left: 400px
+}
+
+.enfeite2 {
+    margin-left: 650px;
+    margin-top: -50px
+}
+
+form {
+    width: 700px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form input[type="submit"] {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: #116CFF;
+}
+
+input {
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-color: #BCD6FF;
+}
+
+select {
+    width: 460px;
+    height: 50px;
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-color: #BCD6FF;
+    font-family: 'Inter';
+}
+
+.contactUs button {
+    margin-top: 600px;
+    margin-left: -20px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    margin-left: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilização do footer */
+footer {
+    background-color: #00235C;
+    height: max-content;
+    display: block;
+}
+
+.fundoFooter {
+    position: absolute;
+    width: 363px;
+    height: 471px;
+}
+
+.logo2 {
+    margin-top: 100px;
+    position: absolute;
+    margin-left: -380px;
+}
+
+.footerInfo p {
+    position: absolute;
+}
+
+.address {
+    color: white;
+    margin-top: -200px;
+    margin-left: 90px;
+}
+
+.email {
+    color: white;
+    margin-top: -150px;
+    margin-left: 90px;
+}
+
+.logos {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 90px;
+    width: 200px;
+    justify-content: space-between;
+    display: flex;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 800px;
+    height: max-content;
+    margin-left: 90px;
+    color: white;
+}
+
+footer .links p {
+    margin: 0;
+    padding: 0px;
+    font-weight: 600;
+
+}
+
+.ativo {
+    color: #116CFF
+}
+
+form p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #00235c
 }
